@@ -1,0 +1,24 @@
+baseURL = "https://partyintraffic.github.io/"
+languageCode = "en-us"
+title = "Party In Traffic: parenting with/alongside ADHD"
+theme = "blowfish"
+enableRobotsTXT = true
+paginate = 10
+defaultContentLanguage = "en"
+
+[params]
+  description = "Blogging about ADHD, parenting, and everything in between."
+  dateFormat = "January 2, 2006"
+  mainSections = ["posts"]
+  defaultTheme = "auto" # dark/light toggle
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    pageRef = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "About"
+    pageRef = "/about"
+    weight = 2
