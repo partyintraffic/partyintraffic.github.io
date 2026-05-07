@@ -1,0 +1,39 @@
+baseURL = "https://partyintraffic.com/"
+locale = "en-us"
+title = "Party in Traffic"
+theme = "PaperMod"
+[pagination]
+  pagerSize = 10
+
+[params]
+  author = "Mike Fettis"
+  description = "Parenting, presence, and figuring it out as we go."
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = false
+
+[params.homeInfoParams]
+  Title = "Party in Traffic"
+  Content = "Parenting, presence, and figuring it out as we go."
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/partyintraffic"
+
+[[params.socialIcons]]
+  name = "youtube"
+  url = "https://youtube.com/@partyintraffic"
+
+[menu]
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 1
+  [[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 2
